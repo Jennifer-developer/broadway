@@ -6,16 +6,18 @@
 </head>
 
 <body>
+
+  <div class=nav id="home">
   <h1>Broadway Design</h1>
 
-  <div class="nav">
-  <ul>
+  <ul style="list-style: none;">
     <li><a href="#home">Home</a></li>
     <li><a href="#process">Process</a></li>
     <li><a href="#work">Work</a></li>
+    <li><a href="#team">Team</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  </div>
+</div>
 
   <div id="process">
     <h2>Our Process</h2>
@@ -36,29 +38,35 @@
 
   <!--Part 2-->
   <div id="design">
-    <h2>Designed in New York</h2>
-    <!--section a-->
+    <p class="design">Designed in New York</p>
+    <!--section work-->
+    <div id="work">
     <h3>Portfolio</h3>
     <p>Coming Soon</p>
+    </div>
 
-    <!--section b-->
+    <!--section team-->
+    <div id="team">
     <h3>Team</h3>
     <p>We're Hiring!</p>
-    <!--section c-->
+    </div>
+    <!--section contact-->
+    <div id="contact">
     <h3>Contact</h3>
     <p>Phone: (555)-555-5555</p>
     <p>E-mail: test@example.com</p>
     <p>Twitter: @test</p>
+    </div>
   </div>
 
   <footer>
-    <p>
+    <p class="footer">
       &copy; Broadway 2017
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Work</a>
-      <a href="#">Team</a>
-      <a href="#">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#process">About</a>
+      <a href="#work">Work</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
     </p>
   </footer>
 </body>
